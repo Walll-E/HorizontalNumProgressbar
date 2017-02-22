@@ -9,7 +9,7 @@
 
 ###基本使用:
 #### 1.在project的 build.gradle下
-```java
+
     allprojects { 
         repositories {  
             ...   
@@ -18,16 +18,15 @@
         }
         
 #### 2.在app 的 build.gradle下
-```java
+
     dependencies {         
         compile 'com.github.Walll-E:HorizontalNumProgressbar:v1.0' 
     }
     
 ###用法：
-    布局文件中声明：
-
+布局文件中声明：
 ```xml
-    <com.walle.progressbar.NumberProgressBar      
+<com.walle.progressbar.NumberProgressBar      
         android:layout_width="match_parent"    
         android:layout_height="wrap_content"    
         app:progress_current="60"    
@@ -41,7 +40,7 @@
         app:progress_unreached_color="#999999"    
         app:progress_out_bar_color="@color/colorAccent"/>
         
-    代码中动态设置进度：
+代码中动态设置进度：
 ```java
     progressBar.setOnProgressBarListener(this);   
     timer = new Timer();    
@@ -70,6 +69,5 @@
         }
         
 ##关于我
-
 [简书](http://www.jianshu.com/u/f914004db506) 
 [github主页](https://github.com/Walll-E)
