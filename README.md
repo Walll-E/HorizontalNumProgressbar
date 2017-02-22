@@ -41,7 +41,6 @@
         app:progress_out_bar_color="@color/colorAccent"/>
         
 代码中动态设置进度：
-```java
     progressBar.setOnProgressBarListener(this);   
     timer = new Timer();    
     timer.schedule(new TimerTask() {        
@@ -69,5 +68,5 @@
         }
         
 ##关于我
-[简书](http://www.jianshu.com/u/f914004db506) 
-[github主页](https://github.com/Walll-E)
+ [简书](http://www.jianshu.com/u/f914004db506) 
+ [github主页](https://github.com/Walll-E)
