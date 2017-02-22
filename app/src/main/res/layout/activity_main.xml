@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.walle.horizontalnumprogressbar.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <!-- <com.walle.progressbar.NumberProgressBar
+        android:id="@+id/progressBar"
+        android:layout_margin="10dp"
+        app:progress_reached_bar_height="20dp"
+        app:progress_unreached_bar_height="20dp"
+        app:progress_current="45"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>-->
+
+    <com.walle.progressbar.NumberProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:progress_current="60"
+        android:layout_margin="10dp"
+        app:progress_out_bar_color="@color/colorAccent"
+        />
+
+
+    <!--<com.walle.progressbar.NumberProgressBar
+
+        app:progress_reached_bar_height="20dp"
+        app:progress_unreached_bar_height="20dp"
+        app:progress_current="10"
+        android:layout_margin="10dp"
+        app:progress_text_visibility="invisible"
+        app:progress_reached_color="#ee0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <com.walle.progressbar.NumberProgressBar
+
+        app:progress_reached_bar_height="20dp"
+        app:progress_unreached_bar_height="20dp"
+        app:progress_current="60"
+        android:layout_margin="10dp"
+        app:progress_text_visibility="invisible"
+        app:progress_unreached_color="@color/colorAccent"
+        app:progress_out_bar_color="#ee0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+
+</LinearLayout>
